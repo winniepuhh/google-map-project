@@ -24,4 +24,4 @@ You may also see any lint errors in the console.
 7. if you want to delete all markets click (Clear All)
 
 
-Sorry do not have enough time to add Firebase.
+Sorry did not have enough time to add Firebase.
