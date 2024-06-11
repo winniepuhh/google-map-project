@@ -1,0 +1,45 @@
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+.input-container * {
+  box-sizing: border-box;
+}
+
+.input {
+  width: 100%;
+  padding: 18px 15px;
+  border: 2px solid black;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 40px;
+}
+
+.input:focus {
+  border-color: rgb(30, 28, 28);
+  outline: none;
+}
+
+.suggestions {
+  position: absolute;
+  top: 0;
+  transform: translateY(40px);
+  background: white;
+  border: 2px solid black;
+  width: 100%;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.listItem {
+  padding: 18px 15px;
+  cursor: pointer;
+}
+
+.listItem:hover {
+  background: #efefef;
+}
