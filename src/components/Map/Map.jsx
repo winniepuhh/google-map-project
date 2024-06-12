@@ -1,7 +1,7 @@
 import { GoogleMap } from "@react-google-maps/api";
 import { useCallback, useRef } from "react";
 import './Map.css';
-import { MarkerLocation } from '../MarkerLocation/MarkerLocation';
+// import { MarkerLocation } from '../MarkerLocation/MarkerLocation';
 import { Marker } from "../Marker/Marker";
 
 const containerStyle = {
