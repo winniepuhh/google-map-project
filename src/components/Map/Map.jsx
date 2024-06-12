@@ -1,7 +1,6 @@
 import { GoogleMap } from "@react-google-maps/api";
 import { useCallback, useRef } from "react";
 import './Map.css';
-// import { MarkerLocation } from '../MarkerLocation/MarkerLocation';
 import { Marker } from "../Marker/Marker";
 
 const containerStyle = {
@@ -34,7 +33,6 @@ export const Map = ({ center, mode, markers, onMarkerAdd, deleteMarker }) => {
 
         console.log(lat, lng);
       }
-      // console.log(location);
     },
     [mode, onMarkerAdd]
   );
