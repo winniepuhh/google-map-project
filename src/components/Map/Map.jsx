@@ -1,7 +1,6 @@
 import { GoogleMap } from "@react-google-maps/api";
 import { useCallback, useRef } from "react";
 import './Map.css';
-// import { MarkerLocation } from '../MarkerLocation/MarkerLocation';
 import { Marker } from "../Marker/Marker";
 
 const containerStyle = {
@@ -51,7 +50,6 @@ export const Map = ({ center, mode, markers, onMarkerAdd, deleteMarker }) => {
         onClick={onClick}
       >
           <Marker position={center} />
-        {/* <MarkerLocation position={center} /> */}
         {markers.map((position) => {
           return <Marker position={position} deleteMarker={deleteMarker} />;
         })}
