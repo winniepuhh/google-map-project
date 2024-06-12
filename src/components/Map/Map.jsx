@@ -49,7 +49,6 @@ export const Map = ({ center, mode, markers, onMarkerAdd, deleteMarker }) => {
         onClick={onClick}
       >
           <Marker position={center} />
-        {/* <MarkerLocation position={center} /> */}
         {markers.map((position) => {
           return <Marker position={position} deleteMarker={deleteMarker} />;
         })}
